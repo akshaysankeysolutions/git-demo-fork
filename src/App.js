@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -7,10 +7,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.          
+          Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p className='subHeading'>
-          Hey, this is Git Session & today is Tuesday 8th September. <br/>
+        <p className="subHeading">
+          Hey, this is Git Session & today is Tuesday 8th September. <br />
           And it's a beautiful sunny Day.
         </p>
 
@@ -32,6 +32,8 @@ function App() {
           <li>Stash and Cherry-Pick</li>
         </ul>
       </header>
+
+      <h2>Lorem Paragraph Below :</h2>
     </div>
   );
 }
